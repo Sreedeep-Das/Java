@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="85341" started-at="2017-03-20T12:18:24Z" finished-at="2017-03-20T12:19:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="85341" started-at="2017-03-20T12:18:24Z" finished-at="2017-03-20T12:19:49Z">
+      <class name="Chegg">
+        <test-method status="PASS" signature="testwhatsApp()[pri:0, instance:Chegg@7ac7a4e4]" name="testwhatsApp" duration-ms="85318" started-at="2017-03-20T17:48:24Z" finished-at="2017-03-20T17:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwhatsApp -->
+      </class> <!-- Chegg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

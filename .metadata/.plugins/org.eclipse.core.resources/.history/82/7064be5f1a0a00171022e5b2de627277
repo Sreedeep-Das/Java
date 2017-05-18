@@ -1,0 +1,26 @@
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class Task 
+{
+	AndroidDriver driver;
+	DesiredCapabilities capability;
+	@Test
+	public void testwhatsApp() throws MalformedURLException, InterruptedException{
+		 capability=new DesiredCapabilities();
+		capability.setCapability("AutomationName", "Appium");
+		capability.setCapability("platformName", "Android");
+		capability.setCapability("platformVersion", "5.1.1");
+		capability.setCapability("deviceName", "Yu Yuphoria");
+		capability.setCapability("app","E://Deep_javapractise//Appium_Patanjali//Appium_TYSS//apk//HealthifyMe Weight Loss Coach_vv4.9.2_apkpure.com.apk");
+		driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capability);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+
+}
+}

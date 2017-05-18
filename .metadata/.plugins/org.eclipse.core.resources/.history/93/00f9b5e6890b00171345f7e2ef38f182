@@ -1,0 +1,24 @@
+import java.net.MalformedURLException;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class Chegg {
+AndroidDriver driver;
+DesiredCapabilities capability;
+@Test
+public void testwhatsApp() throws MalformedURLException, InterruptedException{
+	 capability=new DesiredCapabilities();
+	capability.setCapability("AutomationName", "Appium");
+	capability.setCapability("platformName", "Android");
+	capability.setCapability("platformVersion", "5.1.1");
+	capability.setCapability("deviceName", "Yu Yuphoria");
+	capability.setCapability("app","E://Deep_javapractise//Appium_Patanjali//Appium_TYSS//apk//Chegg Tutors Online Tutoring_v1.1.2_apkpure.com.apk");
+	//driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+	//Thread.sleep(1000);
+	driver.findElement(By.name("Skip")).click();
+}}

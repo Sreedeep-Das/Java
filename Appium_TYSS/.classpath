@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/Selenium/selenium-server-standalone-3.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/Appium/java-client-5.0.0-BETA3.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/Appium/appium-appium.app-3b88f0c554e4.zip"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/ExtentReport_Softwares/extentreports-java-3.0.3/extentreports-3.0.3.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/ExtentReport_Softwares/extentreports-java-3.0.3/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/ExtentReport_Softwares/extentreports-java-3.0.3/lib/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/ExtentReport_Softwares/extentreports-java-3.0.3/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/ExtentReport_Softwares/extentreports-java-3.0.3/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/ExtentReport_Softwares/extentreports-java-3.0.3/lib/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/ExtentReport_Softwares/extentreports-java-3.0.3/lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/ExtentReport_Softwares/extentreports-java-3.0.3/lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/ExtentReport_Softwares/extentreports-java-3.0.3/lib/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/ExtentReport_Softwares/extentreports-java-3.0.3/lib/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/ExtentReport_Softwares/extentreports-java-3.0.3/lib/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/ExtentReport_Softwares/extentreports-java-3.0.3/lib/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/ExtentReport_Softwares/extentreports-java-3.0.3/lib/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/ExtentReport_Softwares/extentreports-java-3.0.3/lib/testng-6.9.10.jar"/>
+	<classpathentry kind="lib" path="E:/Deep_javapractise/gson-2.2.4-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
